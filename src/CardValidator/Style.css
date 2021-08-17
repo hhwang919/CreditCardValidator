@@ -1,0 +1,22 @@
+
+.box-border {
+   -fx-background-color: -fx-shadow-highlight-color, -fx-text-box-border, -fx-control-inner-background;
+       -fx-padding: 0;
+       -fx-border-style: solid inside;
+       -fx-border-insets: -0.4, 1, 2;
+       -fx-border-radius: 3.4, 2, 2;
+       -fx-border-color: gray;
+       -fx-focus-color: #0093ff;
+}
+
+.text-field-no-border {
+    -fx-background-color: -fx-control-inner-background;
+    -fx-focus-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.image {
+    -fx-background-color: white;
+    -fx-border-radius: 5;
+    -fx-border-width: 0;
+}
